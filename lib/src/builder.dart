@@ -9,7 +9,7 @@ abstract class OnceBuilder {
     return FutureBuilder<Widget?>(
       future: future,
       builder: (context, snapshot) {
-         if (snapshot.hasData) {
+        if (snapshot.hasData) {
           return snapshot.data!;
         } else {
           return fallback?.call() ?? const SizedBox.shrink();
