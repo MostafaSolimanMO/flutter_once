@@ -1,6 +1,6 @@
 name: flutter_once
 description: Want to show a widget once periodically (Daily - Weekly - Monthly - Yearly - Any period)? We got your back.
-version: 1.0.5
+version: 1.1.0
 homepage: https://github.com/MostafaSolimanMO/flutter_once
 
 environment:
@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  once: ^1.1.1
+  once: ^1.2.0
 
 dev_dependencies:
   flutter_lints: ^1.0.0
